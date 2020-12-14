@@ -1,0 +1,46 @@
+.body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+.about-intro {
+	min-height: 20rem;
+	margin: 8.5%;
+	text-align: center;
+}
+
+.services-item-con {
+	margin-bottom: 5rem;
+}
+
+#services {
+	background-color: rgb(252, 241, 225);
+	min-height: 20rem;
+	/* margin: 8.5%; */
+	text-align: center;
+}
+
+#services .services-bg h2,
+p {
+	margin: 2.5rem;
+}
+
+#contact {
+	margin: 8.5%;
+	align-items: center;
+}
+
+#services {
+	background-image: url(images/services-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
